@@ -1,0 +1,299 @@
+.ck-editor__editable_inline {
+    min-height: 300px;
+}
+
+label#ck-editor__label_e2b824b157c9fa1c79bae249fe3e62629 {
+    display: none;
+}
+
+/*========iFlair-login/Registration-Admin-Tabing-Start========*/
+
+
+.tabing-wrapper.admin-tabing {
+    border: 1px solid #c3c4c7;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs {
+    width: 20%;
+    display: block;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #ededed;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs li.tab-link {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    border-color: #ededed;
+    font-weight: 400;
+    color: #0073aa;
+    border-style: solid;
+    border-width: 1px 0 0;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs li.tab-link:hover {
+    background-color: #ffffff;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs li.tab-link:first-child {
+    border-top: none;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs li.tab-link:last-child {
+    border-bottom-width: 1px;
+}
+
+.tabing-wrapper.admin-tabing ul.tabs li.tab-link.current {
+    background-color: #ffffff;
+    color: #000000;
+    margin-right: -1px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content {
+    width: 80%;
+    display: none;
+}
+
+.tabing-wrapper.admin-tabing .tab-content > div {
+    padding: 15px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content.current {
+    display: block;
+}
+
+.tabing-wrapper.admin-tabing .tab-content h3 {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 3px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .msg-copy {
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 38%;
+    left: 88%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .msg-copy::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .msg-copy {
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-wrap {
+    margin: 10px 0 0;
+    position: relative;
+    width: fit-content;
+    line-height: 1;
+}
+
+.image-wrap.header-logo img,
+.image-wrap.footer-logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.image-wrap.favicon img {
+    max-width: 80px;
+}
+
+.remove-image {
+    display: none;
+    position: absolute;
+    top: -16px;
+    right: -8px;
+    border-radius: 10em;
+    padding: 3px 7px;
+    text-decoration: none;
+    font: 700 20px/20px sans-serif;
+    background: #555;
+    border: 3px solid #fff;
+    color: #FFF;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 50%), inset 0 2px 4px rgb(0 0 0 / 30%);
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.remove-image:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #E54E4E;
+    padding: 4px 8px;
+    top: -18px;
+    right: -10px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .input img.colorpick-eyedropper-input-trigger {
+    display: none;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .col-6 {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-width: 0px 1px 1px 0;
+    border-style: solid;
+    border-color: #ededed;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .col-6:nth-child(2n) {
+    border-right: none;
+}
+
+.tabing-wrapper.admin-tabing .tab-content label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .input {
+    margin-bottom: 10px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .input:last-of-type {
+    margin-bottom: 0;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .pages_wrap-single label {
+    margin-bottom: 0;
+    margin-right: 10px;
+    min-width: 140px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .pages_wrap-single {
+    margin-bottom: 10px;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .pages_wrap-single:last-of-type {
+    margin-bottom: 0;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .input label {
+    display: block;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .input input[type="text"],
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .input input[type="email"],
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .input textarea,
+.tabing-wrapper.admin-tabing .tab-content input[type="text"],
+.tabing-wrapper.admin-tabing .tab-content input[type="email"],
+.tabing-wrapper.admin-tabing .tab-content textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tabing-wrapper.admin-tabing .tab-content .inner-column-wrapper .input input.upload_image_button,
+.tabing-wrapper.admin-tabing .tab-content input.upload_image_button {
+    width: auto;
+    margin: 10px 0 0;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tabing-wrapper.admin-tabing div#social_media .row:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.tabing-wrapper.admin-tabing div#social_media table {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.tabing-wrapper.admin-tabing div#social_media table tr td {
+    padding: 8px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.tabing-wrapper.admin-tabing div#social_media table tr th {
+    text-align: left;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 8px;
+}
+
+.tabing-wrapper.admin-tabing div#social_media #cloneButton {
+    margin: 15px 0 0 auto;
+    display: block;
+}
+
+input.upload_image_button,
+button.btn,
+input.btn.remove {
+    background: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 6px 12px;
+    border: 1px solid #2271b1;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input.upload_image_button:hover,
+button.btn:hover,
+input.btn.remove:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+
+
+/*========iFlair-login/Registration-Admin-Tabing-End========*/
